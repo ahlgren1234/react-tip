@@ -35,6 +35,7 @@ function App() {
 
   useEffect(() => {
     calculate();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [bill, tip, split]);
 
   return (
